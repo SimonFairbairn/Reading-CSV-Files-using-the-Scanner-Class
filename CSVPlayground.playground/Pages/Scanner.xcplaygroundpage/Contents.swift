@@ -3,7 +3,6 @@
 
 import Cocoa
 
-
 func scan( _ line : String, separatedBy separator : String = "," ) -> [String] {
 	
 	guard line.range(of: "\"") != nil else {
